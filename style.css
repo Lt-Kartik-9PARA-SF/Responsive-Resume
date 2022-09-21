@@ -26,6 +26,7 @@ text-transform:unset;
 
 a{
     cursor: pointer;
+   color: inherit;
 }
 .left-section{
     background-color: rgb(59, 57, 57);
