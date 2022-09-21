@@ -7,3 +7,106 @@
 }
 
 /* Write CSS code below */
+
+.main-content{
+    display: grid;
+grid-template-columns: 300px 700px;
+min-height: 1000px;
+width: 90%;
+}
+a{
+    cursor: pointer;
+}
+.left-section{
+    background-color: gray;
+    padding: 1rem;
+   
+}
+.right-section{
+    background-color: chartreuse;
+}
+img{
+    width: 60%;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.media-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+}
+#java{
+    background-color: white;
+    width: 80%;
+}
+#html{
+    background-color: white;
+    width: 80%;
+}
+#css{
+    background-color: white;
+    width: 70%;
+}
+#javascript{
+    background-color: white;
+    width: 50%;
+}
+#react{
+    background-color: white;
+    width: 10%;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.education{
+    display: flex;
+    justify-content: space-evenly;
+}
+.experience{
+    display: flex;
+    justify-content: space-evenly;
+}
