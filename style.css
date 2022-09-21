@@ -14,17 +14,25 @@ grid-template-columns: 300px 700px;
 min-height: 1000px;
 width: 90%;
 }
+
+@media screen and (max-width: 674px) {
+    .main-content{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    }
+  }
+
 a{
     cursor: pointer;
 }
 .left-section{
-    background-color: gray;
+    background-color: rgb(59, 57, 57);
     padding: 1rem;
+    color: white;
    
 }
-.right-section{
-    background-color: chartreuse;
-}
+
 img{
     width: 60%;
     padding: 1rem;
@@ -54,6 +62,10 @@ img{
 .media-icons{
     display: flex;
     justify-content: space-evenly;
+}
+.personal-details{
+    line-height: 1.5rem;
+    margin-top: 1rem;
 }
 .skills{
     font-size: 0.75rem;
@@ -109,4 +121,15 @@ img{
 .experience{
     display: flex;
     justify-content: space-evenly;
+}
+
+.education2{
+    display: flex;
+    justify-content: space-around;
+}
+#ed1{
+    flex-grow: 3;
+}
+.college{
+    flex-grow: 3;
 }
