@@ -118,21 +118,15 @@ img{
     letter-spacing: 1px;
 }
 .education{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 .experience{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 
 .education2{
-    display: flex;
-    justify-content: space-around;
-}
-#ed1{
-    flex-grow: 3;
-}
-.college{
-    flex-grow: 3;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
