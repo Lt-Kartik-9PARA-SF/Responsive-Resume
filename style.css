@@ -107,7 +107,9 @@ img{
     background-color: white;
     width: 10%;
 }
-
+.right-section{
+    background-color:whitesmoke;
+}
 .right-main-content{
     padding: 2rem 3rem;
 }
