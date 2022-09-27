@@ -16,14 +16,7 @@ width: 90%;
 text-transform:unset;
 }
 
-@media screen and (max-width: 674px) {
-    .main-content{
-        display: grid;
-      
-    grid-template-columns: repeat(1, 1fr);
-    
-    }
-  }
+
 
 a{
     cursor: pointer;
@@ -33,6 +26,7 @@ a{
     background-color: rgb(59, 57, 57);
     padding: 1rem;
     color: white;
+    grid-column: span 1;
    
 }
 
@@ -109,6 +103,7 @@ img{
 }
 .right-section{
     background-color:whitesmoke;
+    grid-column: span 1 / span 2;
 }
 .right-main-content{
     padding: 2rem 3rem;
@@ -133,3 +128,12 @@ img{
     display: grid;
     grid-template-columns: 70% 30%;
 }
+
+@media screen and (max-width: 673px) {
+    .main-content{
+        
+      
+    grid-template-columns: repeat(1, 1fr);
+    
+    }
+  }
